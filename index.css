@@ -1,0 +1,144 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  margin: 1rem 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.navbar {
+  width: 80%;
+  padding: 1rem 1rem;
+  border: none;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  background: white;
+}
+
+#time-container {
+  width: 80%;
+  border: none;
+  margin: auto;
+}
+
+#time {
+  text-align: right;
+}
+
+.bordered {
+  border-right: none;
+}
+
+.navbar-brand {
+  font-size: 16px;
+}
+
+#books {
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#books-list {
+  margin-top: 150px;
+}
+
+.book-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.book-remove {
+  padding: 5px;
+  align-self: center;
+}
+
+#input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#bookForm {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+input {
+  padding: 0.5rem;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.add-button {
+  padding: 0.5rem;
+  width: fit-content;
+  margin-left: auto;
+}
+
+footer {
+  width: 80%;
+  padding: 1rem 1rem;
+  border: solid 2px black;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 10%;
+  background: white;
+}
+
+.contact {
+  margin-top: 150px;
+}
+
+@media only screen and (min-width: 768px) {
+  #bookForm {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+  }
+
+  .nav-container {
+    padding: 0;
+  }
+
+  .navbar {
+    width: 80%;
+    padding: 1rem 1rem;
+    border: solid 2px black;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+  }
+
+  .bordered {
+    border-right: solid 2px black;
+  }
+
+  .contact-list {
+    line-height: 0.5rem;
+  }
+}
