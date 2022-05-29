@@ -37,7 +37,7 @@ ul {
 
 #time {
   text-align: right;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 
 .bordered {
@@ -57,7 +57,7 @@ ul {
 }
 
 #books-list {
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 
 .book-div {
@@ -76,7 +76,8 @@ ul {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  margin-top: 150px;
+
+  /* margin-top: 150px; */
 }
 
 #bookForm {
@@ -111,7 +112,7 @@ footer {
 }
 
 .contact {
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 
 @media only screen and (min-width: 768px) {
