@@ -15,5 +15,5 @@ const displayDate = () => {
   ];
   document.getElementById('time').innerHTML = `${month}, ${time}`;
 };
-displayDate();
-setInterval(displayDate, 1000);
+// displayDate();
+// setInterval(displayDate, 1000);
