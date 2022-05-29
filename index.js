@@ -7,11 +7,7 @@ import * as myNav from './modules/nav.js'
 
 const displayDate = () => {
   const now = DateTime.local();
-  console.log(now);
   document.getElementById('time').innerHTML = `${now}`;
 }
 
 setInterval(displayDate, 1000);
-
-// let dt = DateTime.fromObject({day: 22, hour: 12 }, { zone: 'America/Los_Angeles',
-// numberingSystem: 'beng'})
